@@ -1,4 +1,5 @@
 from sqlalchemy import Column, String, Integer
+from sqlalchemy.sql.expression import true
 from src.config import Base
 
 class Users(Base):
